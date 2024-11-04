@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabrizio & Leon ❤️</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #ffecec;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        header {
+            background: #ff6f91;
+            color: #fff;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 10px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            font-style: italic;
+        }
+        .container {
+            max-width: 800px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .profile {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 2px solid #ff6f91;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border: 3px solid #ff6f91;
+        }
+        .profile h2 {
+            color: #ff6f91;
+            font-size: 1.8em;
+        }
+        .profile p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        .hearts {
+            font-size: 1.5em;
+            color: #ff6f91;
+            margin-top: 10px;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fabrizio & Leon ❤️</h1>
+        <p>Zwei beste Freunde für immer 💫</p>
+    </header>
+
+    <div class="container">
+        <!-- Profile für Fabrizio -->
+        <div class="profile">
+            <img src="https://via.placeholder.com/150?text=Bild+von+zwei+Händen+in+Herzform" alt="Symbolisches Bild von zwei Händen in Herzform">
+            <h2>Fabrizio 🥳</h2>
+            <p>Fabrizio ist der Kreative mit einem Herz für alles Schöne. Er liebt es, neue Ideen zu haben und bringt immer Freude in den Alltag! 🎨✨</p>
+            <p class="hearts">❤️❤️❤️</p>
+        </div>
+
+        <!-- Profile für Leon -->
+        <div class="profile">
+            <img src="https://via.placeholder.com/150?text=Bild+von+zwei+Männern+am+Meer" alt="Symbolisches Bild von zwei Männern am Meer, die sich an den Händen halten">
+            <h2>Leon 🚀</h2>
+            <p>Leon ist der Tech-Guru und immer bereit, ein neues Abenteuer zu starten! Mit ihm wird alles ein bisschen heller und aufregender. 💻🌟</p>
+            <p class="hearts">💙💙💙</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Mit viel Liebe gemacht für Fabrizio und Leon 💖</p>
+    </footer>
+</body>
+</html>
